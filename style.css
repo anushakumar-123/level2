@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  html body {
+    height: 100px;
+      width: 100%;
+    font-family: sans-serif;
+  }
+  .navDiv {
+      width: 1300px;
+    height: 50px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo a{
+    
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  .logo {
+    margin: 16px;
+  }
+.navDiv  ul {
+    display: inline-flex;
+    gap: 9px;
+    padding: 17px;
+     list-style: none;
+  }
+  li a {
+   
+    color: white;
+    font-size: 9px;
+    
+  }
+ button {
+   all: unset;
+ }
+  button a {
+    color: white;
+    background: red;
+    border-radius: 5px;
+    font-size: 10px;
+    border: 1px solid gray;
+    padding: 4px;
+    font-weight: bold;
+  }
+.dashboard {
+        display: grid;
+    grid-template-rows: 380px 80px;
+    grid-template-columns: 300px 1000px;
+    gap:20px;
+    
+}
+.sidebar{
+    width: 300px;
+    height: 400px;
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.sidebar ul{
+    list-style: none;
+}
+.sidebar li {
+    background: #ddd;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.sidebar h2 {
+    margin-bottom: 10px;
+}
+.content {
+    width: 940px;
+    height: 400px;
+    background: rgb(226,204,204);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.content h2,p{
+    padding: 5px;
+}
+.cards {
+    padding: 20px;
+    text-align: center;
+}
+.card {
+    margin-bottom: 17px;
+    width: 280px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: #e8f0fe;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.progress {
+    width: 1240px;
+    height: 70px;
+    margin: 30px;
+    background: #d1f7c4;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 10px;
+}
